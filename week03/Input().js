@@ -1,4 +1,4 @@
-import * as random from 'random';
+prompt.sync
 var correct, guess, problemNumber, quiz;
 quiz = [{
   "question": "How tall is the worlds tallest tower? ",
@@ -27,7 +27,7 @@ for (var problem, _pj_c = 0, _pj_a = quiz, _pj_b = _pj_a.length; _pj_c < _pj_b; 
     console.log(` ${choice}`);
   }
 
-  guess = input("Your guess: ");
+prompt.sync("Your guess: ");
 
   if (guess === problem["answer"]) {
     correct += 1;
