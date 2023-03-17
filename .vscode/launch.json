@@ -13,6 +13,19 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\week03\\Input().js"
-        }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Server",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\week07\\Index.js",
+            "console": "integratedTerminal"
+        
+        },
+    
+    
     ]
 }
