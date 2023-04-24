@@ -8,11 +8,11 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Initiate Self Destruct Sequence  ",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\week03\\Input().js"
+            "program": "${workspaceFolder}\\week08\\mario.js"
         },
         {
             "type": "node",
@@ -21,7 +21,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\week07\\Index.js",
+            "program": "${workspaceFolder}\\week08\\assingnment.js",
             "console": "integratedTerminal"
         
         },
