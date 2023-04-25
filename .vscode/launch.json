@@ -21,7 +21,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\week08\\assingnment.js",
+            "program": "${workspaceFolder}\\week08\\Input().js",
             "console": "integratedTerminal"
         
         },
